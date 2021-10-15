@@ -1,0 +1,21 @@
+.center {
+  max-width: 910px;
+  margin: 30px auto;
+}
+header {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+header input {
+  border: 1px solid #858585;
+  width: 300px;
+  display: flex;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 35px;
+}

@@ -1,0 +1,76 @@
+.ui-container {
+  max-width: 910px;
+  margin: 30px auto;
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+  header {
+    display: grid;
+  }
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+  header input {
+    width: inherit;
+    margin-left: 0;
+    font-size: 15px;
+    height: 35px;
+  }
+  .card {
+    width: 180px;
+  }
+  .ui-container {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+  header {
+    display: grid;
+  }
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+  header input {
+    width: inherit;
+    margin-left: 0;
+    font-size: 15px;
+    height: 35px;
+  }
+  .card {
+    width: 198px;
+  }
+  .ui-container {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  header {
+    display: grid;
+  }
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+  header input {
+    width: inherit;
+    margin-left: 0;
+    font-size: 15px;
+    height: 35px;
+  }
+  .card {
+    width: 188px;
+  }
+  .ui-container {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
